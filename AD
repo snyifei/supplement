@@ -9,3 +9,5 @@ cdn.cmgadx.com,mapi.appvipshop.com
 ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/m8uTS50pt3DC0Xd6\.json url reject-200
 #唯品会
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get url reject-200
+#微信公众号
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\? url reject-dict
