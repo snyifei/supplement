@@ -15,4 +15,6 @@ cdn.cmgadx.com,mapi.appvipshop.com,mp.weixin.qq.com,api.m.mi.com
 #去除公众号商品推广 
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\?action url reject-dict
 #小米商城开屏广告
-^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url response-body "data":"skip_splash":false, response-body "data":"skip_splash":true
+#^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url response-body "data":"skip_splash":false, response-body "data":"skip_splash":true
+#小米商城开屏广告   主机名api.m.mi.com
+^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/mimall.js
