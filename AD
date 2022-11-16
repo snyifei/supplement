@@ -1,5 +1,5 @@
 hostname = 
-cdn.cmgadx.com,mapi.appvipshop.com,mp.weixin.qq.com,api.m.mi.com
+cdn.cmgadx.com,mapi.appvipshop.com,mp.weixin.qq.com,api.m.mi.com,emdcadvertise.eastmoney.com
 
 # > 浦发银行
 ^https?:\/\/mlmdacdn\.spdb\.com\.cn\/oss\/product-mm\/app\/default\/[a-z0-9]{8}-[0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{20}_[0-9]{4}_[0-9]{4}.+.png url reject-200
@@ -22,3 +22,5 @@ cdn.cmgadx.com,mapi.appvipshop.com,mp.weixin.qq.com,api.m.mi.com
 ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/mimall.js
 # > 平安好车主弹窗
 ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox url reject-200
+# > 东方财富
+^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v2 url reject-200
