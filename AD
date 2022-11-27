@@ -19,7 +19,7 @@ cdn.cmgadx.com,mapi.appvipshop.com,mp.weixin.qq.com,api.m.mi.com,emdcadvertise.e
 # > 小米商城开屏广告
 #^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url response-body "data":"skip_splash":false, response-body "data":"skip_splash":true
 # > 小米商城开屏广告   主机名api.m.mi.com
-^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/mimall.js
+#^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/mimall.js
 # > 平安好车主弹窗
 ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox url reject-200
 # > 东方财富
